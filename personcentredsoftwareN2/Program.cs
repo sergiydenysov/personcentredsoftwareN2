@@ -51,7 +51,7 @@ namespace personcentredsoftwareN2
                 }
             }
 
-            Console.WriteLine("results " + String.Join(", ", sucsesfulRunStartIndeses.ToArray()));
+            Console.WriteLine("Indexes of the staion that you can start jorney to finish full circle " + String.Join(", ", sucsesfulRunStartIndeses.ToArray()));
         }
     }
 }
